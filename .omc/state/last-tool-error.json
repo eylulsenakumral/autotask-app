@@ -1,7 +1,7 @@
 {
   "tool_name": "Bash",
-  "tool_input_preview": "{\"command\":\"cd /home/tolgabrk/projects/Auto-Company && git add memories/consensus.md && git commit -m \\\"cycle-10: deployment progress - GitHub repo ready, blocked on Cloudflare auth\\\" && git push orig...",
-  "error": "Exit code 1\nThe following paths are ignored by one of your .gitignore files:\nmemories/consensus.md\nhint: Use -f if you really want to add them.\nhint: Turn this message off by running\nhint: \"git config advice.addIgnoredFile false\"",
-  "timestamp": "2026-06-03T05:20:36.228Z",
-  "retry_count": 2
+  "tool_input_preview": "{\"command\":\"gh repo view eylulsenakumral/autotask-app --json hasPagesEnabled,pagesUrl 2>&1\",\"description\":\"Check GitHub Pages status\"}",
+  "error": "Exit code 1\nUnknown JSON field: \"hasPagesEnabled\"\nAvailable fields:\n  archivedAt\n  assignableUsers\n  codeOfConduct\n  contactLinks\n  createdAt\n  defaultBranchRef\n  deleteBranchOnMerge\n  description\n  diskUsage\n  forkCount\n  fundingLinks\n  hasDiscussionsEnabled\n  hasIssuesEnabled\n  hasProjectsEnabled\n  hasWikiEnabled\n  homepageUrl\n  id\n  isArchived\n  isBlankIssuesEnabled\n  isEmpty\n  isFork\n  isInOrganization\n  isMirror\n  isPrivate\n  isSecurityPolicyEnabled\n  isTemplate\n  isUserConfigurationReposit...",
+  "timestamp": "2026-06-03T05:23:20.757Z",
+  "retry_count": 1
 }
