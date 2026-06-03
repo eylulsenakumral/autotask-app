@@ -1,0 +1,19 @@
+# Cloudflare Worker for AutoTask Browser Automation
+# Browserbase/Puppeteer integration for serverless browser execution
+
+name = "autotask-worker"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+
+# Environment variables (run: wrangler secret put <KEYNAME>)
+# BROWSERBASE_API_KEY
+# BROWSERBASE_PROJECT_ID
+# OPENAI_API_KEY (optional - for AI actions)
+
+[vars]
+ENVIRONMENT = "development"
+
+# Routes (optional - for custom domain)
+# routes = [
+#   { pattern = "autotask.yourdomain.com/api/*", zone_name = "yourdomain.com" }
+# ]

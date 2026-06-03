@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg 2>&1 && echo \\\"deb [arch=$(dpkg --print-architecture...",
+  "error": "Exit code 1\nsudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper\nsudo: a password is required\ncurl: (23) Failure writing output to destination",
+  "timestamp": "2026-06-03T05:17:26.965Z",
+  "retry_count": 1
+}
